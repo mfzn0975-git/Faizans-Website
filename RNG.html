@@ -33,11 +33,13 @@
     let rn = Math.floor(Math.random() * (max-min + 1)) + min; 
     nd.textContent = rn;   });
     cbtn.addEventListener("click" , function() {
+        if (nd.textContent !== "_ _ _ _") {
     navigator.clipboard.writeText(nd.textContent);    
-    })
+        }})
     rbtn.addEventListener("click" , function() {
     nd.textContent =  "_ _ _ _";
     })
     </script>
 </body>
+
 </html> 

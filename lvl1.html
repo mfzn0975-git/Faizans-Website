@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { text-align: center;
+       margin-top: 200px; }
+</style>
+</head>
+<body>
+<h1>Pick The Correct Button</h1>
+<button><a href="file:///F:/docs%20from%20C/Faizan/Scripting/RIIZ.html">BUTTON4</a></button>
+<button id="correct">BUTTON2</button>
+<button><a href="file:///F:/docs%20from%20C/Faizan/Scripting/RIIZ.html">BUTTON3</a></button>
+<button><a href="file:///F:/docs%20from%20C/Faizan/Scripting/RIIZ.html">BUTTON4</a></button>
+<h6>Use Hint?</h6>
+<button id="hint">HINT</button>
+<script>
+const hint = document.getElementById("hint");
+const correct = document.getElementById("correct");
+hint.onclick = function() {
+alert("Click The BUTTON2");
+correct.style.color = "green";
+}
+</script>
+</body>
+</html>

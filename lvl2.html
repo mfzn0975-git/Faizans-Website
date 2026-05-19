@@ -3,7 +3,8 @@
 <head>
 <style>
 body { text-align: center;
-       margin-top: 200px; }
+       margin-top: 200px;
+       background: blue;}
 
 </style>
 </head>
@@ -19,7 +20,7 @@ const hint = document:getElementById("hint");
 const proceed = document:getElementById("proceed");
 proceed.style.visiblity = hidden;
 ans.onclick = function() {
-let answer = window.prompt("Write Answer");
+let answer = prompt("Write Answer");
 if (answer = "18") {
 proceed.style.visibility = visible;
 }

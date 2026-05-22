@@ -19,14 +19,13 @@ const ans = document:getElementById("ans");
 const hint = document:getElementById("hint");
 const proceed = document:getElementById("proceed");
 proceed.style.visiblity = hidden;
-ans.onClick = function() {
+ans.onclick = function() {
 let answer = window.prompt("Write Answer");
 if (answer = "18") {
 proceed.style.visibility = visible;
 }
-hint.onClick = function() {
-alert("Eighteen");
-correct.style.color = "green";
+hint.onclick = function() {
+alert("Eighteen");
 }
 }
 </script>

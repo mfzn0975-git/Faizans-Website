@@ -21,7 +21,10 @@ const proceed = document.getElementById("proceed");
 
 ans.onclick = function() {
 let answer = window.prompt("Write Answer");
-alert("answer");
+alert(answer);
+if (ans == 18) then {
+ proceed.style.visibility = "visible";
+}
 }
 hint.onclick = function() {
 alert("Eighteen");

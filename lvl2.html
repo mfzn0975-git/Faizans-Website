@@ -5,13 +5,13 @@
 body { text-align: center;
        margin-top: 200px;
        background-color: blue;}
-
+#proceed { visibility: hidden;}
 </style>
 </head>
 <body>
 <h1>Whats 9 minus 1 plus 5 mulitply 2 divide 1?</h1>
 <button id="ans">Give Answer</button>
-<button id="proceed">Proceed</button>
+<button id="proceed"><a href="https://mfzn0975-git.github.io/Faizans-Website/lvl3.html">Proceed</a></button>
 <h6>Use Hint?</h6>
 <button id="hint">HINT</button>
 <script>
@@ -21,7 +21,8 @@ const proceed = document:getElementById("proceed");
 
 ans.onclick = function() {
 let answer = window.prompt("Write Answer");
-{
+}
+alert(answer);
 hint.onclick = function() {
 alert("Eighteen");
 }
